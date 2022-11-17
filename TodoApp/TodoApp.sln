@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{16D5C33C-BF48-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.ConsoleApp", "TodoApp.ConsoleApp\TodoApp.ConsoleApp.csproj", "{2C0B7775-D7F2-48FF-B11F-63754E5522DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.ConsoleAppFile", "TodoApp.ConsoleAppFile\TodoApp.ConsoleAppFile.csproj", "{ED388736-8904-4C57-BDB8-478548DBA900}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApp.ConsoleAppFile", "TodoApp.ConsoleAppFile\TodoApp.ConsoleAppFile.csproj", "{ED388736-8904-4C57-BDB8-478548DBA900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.WinFormsApp", "TodoApp.WinFormsApp\TodoApp.WinFormsApp.csproj", "{0DA6587C-D378-4B3F-8303-DA9874EA8C4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{ED388736-8904-4C57-BDB8-478548DBA900}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED388736-8904-4C57-BDB8-478548DBA900}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED388736-8904-4C57-BDB8-478548DBA900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DA6587C-D378-4B3F-8303-DA9874EA8C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA6587C-D378-4B3F-8303-DA9874EA8C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA6587C-D378-4B3F-8303-DA9874EA8C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA6587C-D378-4B3F-8303-DA9874EA8C4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2C0B7775-D7F2-48FF-B11F-63754E5522DE} = {16D5C33C-BF48-410D-887A-CE8A7DF383DA}
 		{ED388736-8904-4C57-BDB8-478548DBA900} = {16D5C33C-BF48-410D-887A-CE8A7DF383DA}
+		{0DA6587C-D378-4B3F-8303-DA9874EA8C4F} = {16D5C33C-BF48-410D-887A-CE8A7DF383DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A0F38CAC-DDE4-4696-80B9-C64A04A7D42D}
