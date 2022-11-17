@@ -3,9 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.Models", "TodoApp.Models\TodoApp.Models.csproj", "{AD282915-E8C7-4C60-9F15-AA80E5BF98CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{16D5C33C-BF48-410D-887A-CE8A7DF383DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApp.ConsoleApp", "TodoApp.ConsoleApp\TodoApp.ConsoleApp.csproj", "{2C0B7775-D7F2-48FF-B11F-63754E5522DE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD282915-E8C7-4C60-9F15-AA80E5BF98CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD282915-E8C7-4C60-9F15-AA80E5BF98CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD282915-E8C7-4C60-9F15-AA80E5BF98CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD282915-E8C7-4C60-9F15-AA80E5BF98CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0B7775-D7F2-48FF-B11F-63754E5522DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0B7775-D7F2-48FF-B11F-63754E5522DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0B7775-D7F2-48FF-B11F-63754E5522DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0B7775-D7F2-48FF-B11F-63754E5522DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C0B7775-D7F2-48FF-B11F-63754E5522DE} = {16D5C33C-BF48-410D-887A-CE8A7DF383DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A0F38CAC-DDE4-4696-80B9-C64A04A7D42D}
